@@ -3,7 +3,7 @@
 void main()
 {
     int x = 10, y = 20;
-    printf("Before Swapping: x = %d : y = %d", x, y);
+    printf("Before Swapping: x = %d : y = %d\n", x, y);
     x = x * y; // x now becomes 200
     y = x / y; // y becomes 10
     x = x / y; // x becomes 20
